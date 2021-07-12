@@ -1,0 +1,19 @@
+{
+  "name": "k_zephyrus",
+  "version": "1.0.0",
+  "description": "Scrapper for https://www.example.com/.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "trigger": "node app.js"
+  },
+  "keywords": [],
+  "author": "Zi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "filenamify": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}
